@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+        <style type="text/css">
+            #reset{
+                display: none;
+            }
+          
+            #info{
+                float:left;
+            }
+              #printedinfo{
+              display:inline;
+              float:right;
+              vertical-align: bottom;
+              position: absolute;
+              
+              }
+              #mycanvas{
+                  border:1px solid #9E9E9E;
+              }
+        </style>
+    </head>
+
+    <body>
+
+        <canvas id="mycanvas">
+            Your browser does not support the HTML5 canvas tag.</canvas>
+        <div>
+            <button id="reset">Reset</button>
+           
+        </div>
+                <div id="info">
+                    parallelogram.js: is a Javascript Plugin that enable the user to click randomly on any three points on the browser <br> to draw a parallelogram
+                        and circle as following:<br>
+                   <br> 1- Parallelogram and circle have same area and center.
+                   
+                    <br>2- User can drag any of three points to change the figure of the shape.
+                    
+                    <br>3- User can clear the drawn board by click on RESET button.
+                    <br>4- Printed info about points coordinates and area of figures, that is updated synchronously when any changing to figure occur.
+                    <br><br>Coded By: Omar Mahrous
+                    <br>WebSite: http://wpmeal.com
+                    <br>Contact: http://wpmeal.com/contact.php
+                </div>
+                    <ul id="printedinfo"></ul>
+
+        <script type="text/javascript" src="parallelogram.js"></script>
+
+
+    </body>
+</html>
