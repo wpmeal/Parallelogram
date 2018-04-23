@@ -1,4 +1,4 @@
-# parallelogram
+# Parallelogram
 Parallelogram JS Plugin
 parallelogram.js: is a Javascript Plugin that enable the user to click randomly on any three points on the browser 
 to draw a parallelogram and circle as following:
